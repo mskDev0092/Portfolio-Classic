@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #050505;
+}
+
+/* Header */
+header {
+  background: #2e3440; /* Dark blue background */
+  color: #f7f8f9; /* Off-white text */
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Fira Sans Condensed', sans-serif; /* Modern sans-serif font */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle box shadow for elevation */
+}
+
+h1 {
+  font-size: 3.5rem; /* Larger heading size */
+  margin: 0;
+  letter-spacing: 0.4rem; /* Increased letter spacing for emphasis */
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.15); /* Subtle text shadow for depth */
+}
+
+/* Section */
+section {
+  background: #383e4b; /* Darker blue background for contrast */
+  padding: 50px;
+  border: 2px solid #2c313d; /* Darker border for stronger visual impact */
+  margin: 40px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle box shadow for separation */
+}
+
+h2,
+h3 {
+  color: #f0f1f2; /* Light grey text for good visibility */
+  font-size: 2rem; /* Slightly larger heading sizes */
+  margin: 0 0 15px 0; /* Additional spacing for hierarchy */
+}
+
+p {
+  color: #e0e1e2; /* Lighter grey for readability */
+  line-height: 1.6;
+  margin: 25px 0;
+}
+a {
+  text-decoration: none;
+}
+.buttons {
+  margin: 5px;
+}
+/* Button */
+button,
+a {
+  background: #414753; /* Slightly lighter blue for button background */
+  border: 1px solid #323742; /* Subtle border to separate button */
+  color: #f7f8f9; /* Off-white text for consistency */
+  padding: 14px 30px; /* Slightly larger padding for better click area */
+  font-size: 1.1rem; /* Improved button text size */
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15); /* Subtle button shadow */
+  border-radius: 7px; /* Rounded corners for a softer feel */
+}
+a:hover {
+  background: #2e3440; /* Darker blue on hover for better feedback */
+}
+button:hover {
+  background: #2e3440; /* Darker blue on hover for better feedback */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+  color: #e0e1e2;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project {
+  margin: 10px;
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.skill-circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #3498db; /* Default color for unknown technology */
+  color: #fff;
+  font-size: 14px;
+  line-height: 100px;
+  margin: 0 10px;
+}
+/* style.css */
+#skills {
+  text-align: center;
+  margin: 2em auto;
+}
+
+.skill-circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #3498db; /* Default color for unknown technology */
+  color: #fff;
+  font-size: 14px;
+  line-height: 100px;
+  margin: 0 10px;
+}
+
+/* Styles for different technologies */
+.skill-circle[data-tech='HTML5'] {
+  background-color: #e44d26; /* HTML5 color */
+}
+
+.skill-circle[data-tech='CSS3'] {
+  background-color: #264de4; /* CSS3 color */
+}
+
+.skill-circle[data-tech='JavaScript'] {
+  background-color: #f0db4f; /* JavaScript color */
+}
+/* Styles for MERN stack technologies */
+.skill-circle[data-tech='MongoDB'] {
+  background-color: #4db33d; /* MongoDB color */
+}
+
+.skill-circle[data-tech='Express'] {
+  background-color: #474747; /* Express.js color */
+}
+
+.skill-circle[data-tech='React'] {
+  background-color: #61dafb; /* React color */
+}
+
+.skill-circle[data-tech='Node'] {
+  background-color: #68a063; /* Node.js color */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
